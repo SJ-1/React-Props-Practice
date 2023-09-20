@@ -23,3 +23,27 @@ let Card = (props) => {
     );
 }
  export default Card;
+
+//Create New Component File With Name of Avatar
+import React from "react";
+
+let Avatar = (props) => {
+    return(
+        <img className="circle-img" src={props.img}/>
+    );
+}
+export default Avatar;
+
+// App -> Card -> Avatar
+
+//Create New Component File With Name of Details
+import React from "react";
+
+let Details = (props) =>{
+    return(
+        <p className="info">{props.detailInfo}</p>
+
+    );
+}
+export default Details; 
+
